@@ -1,0 +1,317 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F0F2F5;
+}
+#weatherApp{
+    display: flex;
+    margin-top: 10vh;
+    margin-left: 40vh;
+    background-color: white;
+    border-radius: 10px;
+    width: 60%;
+   
+    
+}
+#inputsearch{
+    width: 330px;
+    height: 30px;
+   border-radius: 2rem;
+   
+}
+#searchbtn{
+    height: 36PX;
+    width: 180PX;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 3PX;
+    font-size: large;
+    border-radius: 20px;
+}
+#leftcontainer{
+    width: 70%;
+    padding-top: 30px;
+    padding-left: 20px;
+  
+    padding-bottom: 40px
+}
+#city{
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+#temp{
+    font-size: 6rem;
+    color:rgb(85, 74, 74);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#weather-info{
+    text-align: center;
+}
+
+#condition{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size:1.5rem;
+    color: rgb(104, 99, 99);
+    }
+    #tempdiv{
+        display: flex;
+        justify-content: center;
+    }
+
+    #wind{
+        color: rgb(104, 99, 99);
+        margin-bottom: 0;
+    }
+    #humidity{
+        margin-top: 0;
+        margin-bottom: 0;
+        color: rgb(104, 99, 99);
+    }
+
+    #details{
+        margin-top: 40px;
+    }
+
+    #winddiv{
+        display: flex;
+        gap: 10px;
+        margin-bottom: 5px;
+    }
+    #humiditydiv{
+        display: flex;
+gap: 10px;
+    }
+
+    #windimg{
+        height: 20px;
+        width: 20px;
+        margin-top: 17px;
+        
+    }
+
+    #humidityimg{
+        height: 20px;
+        width: 20px;
+
+    }
+
+    #week p{
+        margin:0;
+     
+    } 
+
+    #week {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-left: 30px;
+        gap: 30px;
+    }
+      
+    
+      #sun-condition{
+    color: lightgray;
+}
+
+#mon-condition{
+    color: lightgray;
+}
+
+#tue-condition{
+    color: lightgray;
+}
+
+#wed-condition{
+    color: lightgray;
+}
+
+#thr-condition{
+    color: lightgray;
+}
+
+#fri-condition{
+    color: lightgray;
+}
+
+#sat-condition{
+    color:lightgray;
+}
+
+
+
+
+#sun-temp {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(104, 99, 99);
+  }
+  
+  #mon-temp {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(104, 99, 99);
+  
+  }
+  #tue-temp {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(104, 99, 99);
+  }
+  
+  #wed-temp {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(104, 99, 99);
+  }
+  
+  #thr-temp {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(104, 99, 99);
+  }
+  
+  #fri-temp {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(104, 99, 99);
+  }
+  
+  #sat-temp {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(104, 99, 99);
+  }
+
+  #right-container{
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:gainsboro;
+    padding-top: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px;
+  }
+
+  #greetmrng{
+    font-size:1.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  #time{
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: large;
+  }
+
+
+  #currdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  #windimg2{
+    width: 10px;
+    height: 10px;
+  }
+
+  #humidityimg2{
+    width: 10px;
+    height: 10px;
+  }
+
+  #winddiv2{
+    display: flex;
+    gap: 5px;
+  }
+
+  #current-temp{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2.5rem;
+    color: rgb(85, 74, 74);
+  }
+  #wind2{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: small;
+    margin-bottom: 5px;
+    color: lightslategray;
+  }
+  #humidity2{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: small;
+    color: lightslategray;
+  }
+
+  #humiditydiv2{
+    display: flex;
+    gap: 5px;
+  }
+ #details2{
+    margin-top: 15px;
+ }
+ #feels-like{
+    margin-top: 5px;
+    color: lightslategrey;
+ }
+ #hourly-condition{
+    font-size: large;
+    margin-top: 15px;
+    color: rgb(104, 99, 99);
+ }
+
+ #hourlyforcast p{
+    margin: 0;
+    color: rgb(104, 99, 99);
+ }
+
+ #hourlyforcast{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  
+}
+
+#deg1, #deg2, #deg3{
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+
+#for{
+   margin-top: 10px;
+   margin-bottom: 15px;
+}
+
+#hour1,#hour2,#hour3{
+   border: 1px solid grey;
+   border-radius: 9px;
+   padding:5px;
+}
+#sun{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+ }
+
+ #sun h2{
+  font-size: 20px;
+  color: black;
+ }
+
+ #sunrise,#sunset{
+  color:black;
+
+}
+
+

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="weatherApp">
+      <div id="leftcontainer">
+        <div id="search">
+          <input type="text" id="inputsearch" placeholder="Enter city name" />
+          <button id="searchbtn">Get weather</button>
+        </div>
+
+        <div id="location">
+          <h1 id="city">Multan</h1>
+        </div>
+
+        <div id="weather-info">
+          <div id="tempdiv">
+            <div><h1 id="temp">20°</h1></div>
+
+            <div id="details">
+              <div id="winddiv">
+                <img src="images/wind_icon-removebg-preview.png" id="windimg" />
+                <p id="wind">6.1 mph</p>
+              </div>
+
+              <div id="humiditydiv">
+                <img
+                  src="images/humidity_icon-removebg-preview (2).png"
+                  id="humidityimg"
+                />
+                <p id="humidity">90%</p>
+              </div>
+            </div>
+          </div>
+          <p id="condition">Cloudy</p>
+        </div>
+        <!-- week forecast -->
+
+        <div id="week">
+          <div id="day1">
+            <p id="sunday">Today</p>
+            <p id="sun-temp">20°</p>
+            <p id="sun-condition">Sunny</p>
+          </div>
+
+          <div id="day2">
+            <p id="monday">Mon</p>
+            <p id="mon-temp">20°</p>
+            <p id="mon-condition">Mist</p>
+          </div>
+
+          <div id="day3">
+            <p id="tuesday">Tue</p>
+            <p id="tue-temp">32°</p>
+            <p id="tue-condition">Sunny</p>
+          </div>
+
+          <div id="day4">
+            <p id="wedday">Wed</p>
+            <p id="wed-temp">12°</p>
+            <p id="wed-condition">Rainy</p>
+          </div>
+
+          <div id="day5">
+            <p id="thrday">Thu</p>
+            <p id="thr-temp">13°</p>
+            <p id="thr-condition">Rainy</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- right div -->
+
+      <div id="right-container">
+        <div id="greeting">
+          <p id="greetmrng">Good Morning</p>
+          <p id="time">12:27 PM</p>
+        </div>
+
+        <div id="currdiv">
+          <div id="currtemp">
+            <p id="current-temp">20°</p>
+          </div>
+
+          <div id="details2">
+            <div id="winddiv2">
+              <img src="images/wind_icon-removebg-preview.png" id="windimg2" />
+              <p id="wind2">6.1 mph</p>
+            </div>
+
+            <div id="humiditydiv2">
+              <img
+                src="images/humidity_icon-removebg-preview (2).png"
+                id="humidityimg2"
+              />
+              <p id="humidity2">90%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="forecast">
+          <p id="feels-like">Feels like 19°</p>
+          <p id="hourly-condition">Cloudy</p>
+        </div>
+        <div id="sun">
+          <div id="sun1">
+            <h2>Sunset time</h2>
+            <p id="sunset">08:10pm</p>
+          </div>
+
+          <div id="sun2">
+            <h2>Sunrise time</h2>
+            <p id="sunrise">03:20am</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="first.js"></script>
+  </body>
+</html>
